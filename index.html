@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My To-Do List</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <h1>My To Do List</h1>
+
+    <div class="input-section">
+      <input
+        id="todo-input"
+        type="text"
+        placeholder="Enter a new to-do..."
+      >
+
+      <button id="add-button">Add</button>
+    </div>
+
+    <div class="filters">
+      <button id="all-button">All</button>
+      <button id="active-button">Active</button>
+      <button id="completed-button">Completed</button>
+    </div>
+
+    <p id="counter">0 items remaining</p>
+
+    <ul id="todo-list"></ul>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
